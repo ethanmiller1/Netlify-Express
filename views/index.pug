@@ -1,0 +1,25 @@
+extends partials/header
+
+block content
+  // Begin page content
+  main.container(role='main')
+    h1.mt-5 Express on Netlify
+    p.lead Welcome to Express on Netlify.
+    p
+      | Visit 
+      a(href='/page1') Page 1
+      |  for a dynamic web experience.
+    p
+      | Visit 
+      a(href='/page2') Page 2
+      |  for an even more dynamic experience.
+    p
+      | Visit 
+      a(href='/page3') Page 3
+      |  for good measure.
+    p
+      | Don't even bother with 
+      a(href='/page4') Page 4
+      | .
+  include partials/footer
+    

@@ -1,0 +1,33 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    link(rel='icon', href='/docs/4.0/assets/img/favicons/favicon.ico')
+    title Express.js App on Netlify
+    link(rel='canonical', href='https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/')
+    // Bootstrap core CSS
+    link(href='https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css', rel='stylesheet')
+    // Custom styles for this template
+    link(href='https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/sticky-footer-navbar.css', rel='stylesheet')
+  body
+    header
+      // Fixed navbar
+      nav.navbar.navbar-expand-md.navbar-dark.fixed-top.bg-dark
+        a.navbar-brand(href='/') Netlify-Express App
+        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarCollapse', aria-controls='navbarCollapse', aria-expanded='false', aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarCollapse.collapse.navbar-collapse
+          ul.navbar-nav.mr-auto
+            li.nav-item.active
+              a.nav-link(href='/')
+                | Home 
+                span.sr-only (current)
+            li.nav-item
+              a.nav-link(href='https://github.com/king-melchizedek/Netlify-Express') Github
+          form.form-inline.mt-2.mt-md-0
+            input.form-control.mr-sm-2(type='text', placeholder='Search', aria-label='Search')
+            button.btn.btn-outline-success.my-2.my-sm-0(type='submit') Search
+    block content
