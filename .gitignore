@@ -1,6 +1,7 @@
 /LICENSE
 /package-lock.json
-
+/*.html
+/partials
 
 # Logs
 logs
