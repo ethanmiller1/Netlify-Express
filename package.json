@@ -1,7 +1,7 @@
 {
-  "name": "netlify-express",
+  "name": "Netlify-Express",
   "version": "0.0.1",
-  "description": "Example of how to deploy a Express.js Netlify app.",
+  "description": "Example of how to deploy an Express.js Netlify app.",
   "main": "functions/server.js",
   "scripts": {
     "build": "netlify-lambda build express",
@@ -10,18 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/neverendingqs/netlify-express.git"
+    "url": "git+https://github.com/king-melchizedek/Netlify-Express.git"
   },
   "keywords": [
     "netlify",
     "express.js"
   ],
-  "author": "neverendingqs",
-  "license": "Apache-2.0",
+  "author": "Ethan Miller",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/neverendingqs/netlify-express/issues"
+    "url": "https://github.com/king-melchizedek/Netlify-Express/issues"
   },
-  "homepage": "https://github.com/neverendingqs/netlify-express#readme",
+  "homepage": "https://github.com/king-melchizedek/Netlify-Express#readme",
   "dependencies": {
     "pug": "^2.0.4",
     "pug-cli": "^1.0.0-alpha6"
