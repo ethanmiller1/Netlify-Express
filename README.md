@@ -12,7 +12,7 @@ app is hosted at `/.netlify/functions/server`.
 
 ## Demo
 
-Check out a working demo of this application at [my custom Netlify link](https://dazzling-wing-0792b4.netlify.com/?).
+Check out a working demo of this application at [my custom Netlify link](https://netlifyexpress.netlify.app/).
 
 ## Get started on Netlify-Express App locally
 
